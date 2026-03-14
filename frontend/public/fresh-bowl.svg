@@ -1,0 +1,18 @@
+<svg width="420" height="240" viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fresh bowl illustration">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#23b6a8"/>
+      <stop offset="100%" stop-color="#0f7eb2"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="420" height="240" rx="28" fill="#eef9ff"/>
+  <ellipse cx="210" cy="145" rx="120" ry="52" fill="url(#g1)"/>
+  <ellipse cx="210" cy="136" rx="100" ry="38" fill="#fff"/>
+  <circle cx="174" cy="130" r="11" fill="#ff8c42"/>
+  <circle cx="198" cy="123" r="10" fill="#46b55f"/>
+  <circle cx="221" cy="132" r="10" fill="#e95e66"/>
+  <circle cx="244" cy="125" r="11" fill="#46b55f"/>
+  <circle cx="266" cy="131" r="9" fill="#f0c343"/>
+  <path d="M145 79C161 88 176 89 192 80" stroke="#20a286" stroke-width="6" stroke-linecap="round"/>
+  <path d="M229 79C245 88 260 89 276 80" stroke="#20a286" stroke-width="6" stroke-linecap="round"/>
+</svg>

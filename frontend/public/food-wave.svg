@@ -1,0 +1,18 @@
+<svg width="420" height="240" viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Colorful food illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18a0c9"/>
+      <stop offset="100%" stop-color="#ff9f45"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="420" height="240" rx="28" fill="url(#bg)"/>
+  <circle cx="80" cy="70" r="34" fill="#fff" fill-opacity="0.22"/>
+  <circle cx="355" cy="58" r="24" fill="#fff" fill-opacity="0.2"/>
+  <path d="M35 165C80 132 132 150 174 170C216 191 258 211 312 179C338 164 362 158 385 162" stroke="#fff" stroke-opacity="0.6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="205" cy="118" rx="88" ry="48" fill="#fff" fill-opacity="0.92"/>
+  <ellipse cx="205" cy="128" rx="60" ry="20" fill="#ffdebf"/>
+  <circle cx="176" cy="121" r="9" fill="#30a96b"/>
+  <circle cx="232" cy="121" r="9" fill="#30a96b"/>
+  <circle cx="205" cy="112" r="9" fill="#f15e62"/>
+  <rect x="144" y="160" width="122" height="11" rx="5.5" fill="#fff" fill-opacity="0.9"/>
+</svg>
