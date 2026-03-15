@@ -12,6 +12,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const DB_RETRY_MS = Number(process.env.DB_RETRY_MS || 15000);
+const DEPLOY_MARKER = process.env.DEPLOY_MARKER || "moodfoods-backend-boot-v2";
 
 const allowedOrigins = (process.env.CORS_ORIGIN || "")
   .split(",")
@@ -56,6 +57,9 @@ app.use("/api/recipes", recipeRoutes);
 app.use("/api/user", userRoutes);
 
 const startServer = async () => {
+  console.log(`Boot marker: ${DEPLOY_MARKER}`);
+  console.log(`Node environment: ${process.env.NODE_ENV || "development"}`);
+
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
   });
