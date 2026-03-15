@@ -1,0 +1,13 @@
+{
+  "name": "mood-food-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "npm --prefix backend install",
+    "build": "npm --prefix backend install --omit=dev",
+    "start": "npm --prefix backend start"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
