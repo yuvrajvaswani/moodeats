@@ -1,6 +1,6 @@
 # 🍜 MoodEats
 
-**AI-powered food recommendations based on your mood.** MoodEats is a full-stack web application that recommends recipes tailored to your emotional state, including meal planning, nutrition tracking, budget management, and an AI cooking assistant.
+**AI-powered food recommendations based on your mood.** MoodEats is a full-stack web application that recommends recipes tailored to your emotional state — with meal planning, nutrition tracking, Indian budget meal planning, and a real-time AI cooking assistant.
 
 [![Node.js](https://img.shields.io/badge/Node.js-20-brightgreen)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
@@ -13,10 +13,14 @@
 
 ## 🎯 Live Demo
 
-**Frontend**: http://localhost:5173 (Vite dev server)  
-**Backend**: http://localhost:5000/api (Express API)
+🌐 **[moodeats-gamma.vercel.app](https://moodeats-gamma.vercel.app)** — Live deployment on Vercel
 
-### Quick Start
+| Service | URL |
+|---------|-----|
+| Frontend | https://moodeats-gamma.vercel.app |
+| Backend API | `/api` (Railway.app) |
+
+### Quick Start (Local)
 
 ```bash
 # Install dependencies
@@ -25,6 +29,7 @@ npm install
 # Set up environment variables
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
+# Fill in MONGODB_URI, JWT_SECRET, SPOONACULAR_API_KEY, GOOGLE_CLIENT_ID
 
 # Start backend (Terminal 1)
 npm --prefix backend run dev
@@ -39,9 +44,85 @@ Open **http://localhost:5173** in your browser.
 
 ## 📸 Screenshots
 
-### Login & Authentication
-![Login Page](screenshots/01_home.png)
-> Clean, intuitive login interface with Google OAuth integration. "Hungry but confused? We got you." — MoodEats helps you decide what to eat based on your mood.
+### 🔐 Login & Registration
+
+| Login | Register |
+|-------|----------|
+| ![Login](screenshots/01_home.png) | ![Register](screenshots/11_register.png) |
+
+> Clean, animated login with Google OAuth. Registration lets you pick dietary preferences (Veg, Non-Veg, Vegan, Keto, Gluten-Free) right from sign-up.
+
+---
+
+### 🏠 Home Hub — AI-Powered Recipe Feed
+
+![Home Hub](screenshots/02_home_hub.png)
+
+> Personalized recipe feed powered by AI — **AI Picks for You**, Quick Meals under 30 min, High-Protein meals, and cuisine-filtered sections. Search anything and get results instantly. All cards show calorie count and cook time.
+
+---
+
+### 🔍 Discover Recipes
+
+![Discover](screenshots/03_discover.png)
+
+> Search across 900,000+ recipes. Filter by cuisine (Indian, Italian, Japanese...) and dietary type (Vegan, Keto, Gluten-Free, High-Protein). Infinite scroll through results.
+
+---
+
+### 📖 Recipe Details
+
+![Recipe Details](screenshots/04_recipe_details.png)
+
+> Full recipe view with ingredient list, step-by-step instructions, and a complete nutrition panel (Calories · Protein · Carbs · Fat · Fiber). Save to favorites, compare with another, or open directly in the AI Cooking Assistant.
+
+---
+
+### 📅 Weekly Meal Planner
+
+![Meal Planner](screenshots/05_planner.png)
+
+> Plan every meal for a full week in a clean calendar grid. Auto-generate a balanced plan with one click, or drag-and-drop your own. Shows total weekly calories, daily averages, and protein targets.
+
+---
+
+### 💰 Budget Meal Planner (INR)
+
+![Budget Planner](screenshots/06_budget.png)
+
+> Enter your weekly budget in ₹ and get a complete breakfast/lunch/dinner plan. Tracks estimated spend per day and total, with savings highlighted. Built specifically for Indian ingredients and meal types.
+
+---
+
+### 📊 Nutrition Tracker
+
+![Nutrition Tracker](screenshots/07_nutrition.png)
+
+> Log ingredients and get instant calorie + macro breakdown. Visual progress rings for daily calorie goal and colour-coded bars for Protein, Carbs, Fat. Built-in reference data for 20+ common Indian & global ingredients.
+
+---
+
+### ⭐ Saved Recipes
+
+![Saved Recipes](screenshots/08_saved.png)
+
+> Your personal recipe collection. Browse, search, and filter all saved recipes. Covers cuisines, dietary types, and calorie ranges at a glance.
+
+---
+
+### 🆚 Recipe Comparison
+
+![Recipe Comparison](screenshots/09_compare.png)
+
+> Pick any two recipes and compare them head-to-head — Calories, Protein, Carbs, Fat, Cook Time, Rating. Green check marks show which recipe wins each metric.
+
+---
+
+### 🤖 AI Cooking Assistant
+
+![AI Cooking Assistant](screenshots/10_chat.png)
+
+> Real-time AI chat that walks you through cooking step-by-step. Ask for ingredient substitutions, get pro tips, set timers, and view the full recipe — all without leaving the cook flow.
 
 ---
 
