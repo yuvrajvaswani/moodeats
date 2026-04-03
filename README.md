@@ -352,15 +352,6 @@ VITE_GOOGLE_CLIENT_ID=your-google-client-id
 
 ---
 
-## 📄 License
-
-MIT License - feel free to use this project commercially or personally.
-
----
-
-## 🙋 Support
-
-For questions or issues, please open a GitHub issue or contact [support@moodfoods.in](mailto:support@moodfoods.in).
 
 ---
 
